@@ -30,9 +30,9 @@ jobs:
     - name: FTP-Deploy-Action
       uses: SamKirkland/FTP-Deploy-Action@2.0.0
       env:
-        FTP_SERVER: ftp.devoperadoracocay.com
-        FTP_USERNAME: jimmi@devoperadoracocay.com
-        FTP_PASSWORD: Job3811!
+        FTP_SERVER: ftp.site4now.net
+        FTP_USERNAME: test_jimy
+        FTP_PASSWORD: qwerty123
         LOCAL_DIR: dist/deploy/
-        REMOTE_DIR: public_html/
+        REMOTE_DIR: /
         dangerous-clean-slate: true,
