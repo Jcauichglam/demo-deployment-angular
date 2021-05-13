@@ -33,6 +33,6 @@ jobs:
         FTP_SERVER: ftp.devoperadoracocay.com
         FTP_USERNAME: jimmi@devoperadoracocay.com
         FTP_PASSWORD: Job3811!
-        LOCAL_DIR: dist/deployment-angular/
+        LOCAL_DIR: dist/deploy/
         REMOTE_DIR: public_html/
         dangerous-clean-slate: true,
